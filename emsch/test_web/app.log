@@ -1,0 +1,621 @@
+2023-12-19 22:12:38,374 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.23.0.2:5000
+2023-12-19 22:12:38,374 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-19 22:12:42,961 - INFO - Homepage accessed
+2023-12-19 22:12:42,966 - INFO - 172.23.0.6 - - [19/Dec/2023 22:12:42] "GET / HTTP/1.0" 200 -
+2023-12-19 22:12:43,783 - INFO - 172.23.0.6 - - [19/Dec/2023 22:12:43] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+2023-12-19 22:14:08,481 - INFO - Homepage accessed
+2023-12-19 22:14:08,481 - INFO - 49.12.205.40 - - [19/Dec/2023 22:14:08] "GET / HTTP/1.1" 200 -
+2023-12-19 22:14:09,733 - INFO - 49.12.205.40 - - [19/Dec/2023 22:14:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-19 22:14:26,289 - INFO - Homepage accessed
+2023-12-19 22:14:26,290 - INFO - 49.12.205.40 - - [19/Dec/2023 22:14:26] "GET / HTTP/1.1" 200 -
+2023-12-19 22:30:48,371 - INFO - Homepage accessed
+2023-12-19 22:30:48,371 - INFO - 172.23.0.6 - - [19/Dec/2023 22:30:48] "GET / HTTP/1.0" 200 -
+2023-12-19 22:30:48,828 - INFO - 172.23.0.6 - - [19/Dec/2023 22:30:48] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+2023-12-19 22:37:07,609 - INFO - 172.23.0.6 - - [19/Dec/2023 22:37:07] "[33mGET /themes/core-beta/static/assets/main.0aaf0d88.css HTTP/1.0[0m" 404 -
+2023-12-19 22:37:07,814 - INFO - 172.23.0.6 - - [19/Dec/2023 22:37:07] "[33mGET /themes/core-beta/static/assets/index.69d1de7e.js HTTP/1.0[0m" 404 -
+2023-12-19 22:37:07,849 - INFO - 172.23.0.6 - - [19/Dec/2023 22:37:07] "[33mGET /files/6b835365470f5dbc2683abbf2fd16c1a/1525033621367.png HTTP/1.0[0m" 404 -
+2023-12-19 22:37:22,793 - INFO - 172.23.0.6 - - [19/Dec/2023 22:37:22] "[33mGET /themes/core-beta/static/assets/index.69d1de7e.js HTTP/1.0[0m" 404 -
+2023-12-19 22:37:23,362 - INFO - 172.23.0.6 - - [19/Dec/2023 22:37:23] "[33mGET /themes/core-beta/static/webfonts/lato-latin-400-normal.woff2 HTTP/1.0[0m" 404 -
+2023-12-19 22:37:23,427 - INFO - 172.23.0.6 - - [19/Dec/2023 22:37:23] "[33mGET /themes/core-beta/static/webfonts/fa-solid-900.woff2 HTTP/1.0[0m" 404 -
+2023-12-19 22:37:23,507 - INFO - 172.23.0.6 - - [19/Dec/2023 22:37:23] "[33mGET /themes/core-beta/static/webfonts/fa-solid-900.ttf HTTP/1.0[0m" 404 -
+2023-12-19 22:37:29,885 - ERROR - 83.242.179.148 - - [19/Dec/2023 22:37:29] code 400, message Bad request version ('q\x8aéÇpÿÙâ\x8a¦ó\x82\x8a{í$¬P\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2023-12-19 22:37:29,885 - INFO - 83.242.179.148 - - [19/Dec/2023 22:37:29] "[35m[1m\x16\x03\x01\x02\x96\x01\x00\x02\x92\x03\x03\x9c«JYJ\x99g\x02¬v&~¨¢Ñ\x19_Þ©\x8fÚ\x09¨\x1cM\x8f\x08ñr7\x88¤ ö¡ëD\x8e'\x8e\x90<²ØVþ q\x8aéÇpÿÙâ\x8a¦ó\x82\x8a{í$¬P\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" HTTPStatus.BAD_REQUEST -
+2023-12-19 22:37:33,916 - ERROR - 83.242.179.148 - - [19/Dec/2023 22:37:33] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x96\x01\x00\x02\x92\x03\x03\x7fë\x9a%J\x18"¾Ð\x90\'ÌaÃÄ\x83³hd\x8bÁ\x8d®±É\x80F÷ïíF\x96')
+2023-12-19 22:37:33,917 - INFO - 83.242.179.148 - - [19/Dec/2023 22:37:33] "[35m[1m\x16\x03\x01\x02\x96\x01\x00\x02\x92\x03\x03\x7fë\x9a%J\x18"¾Ð\x90'ÌaÃÄ\x83³hd\x8bÁ\x8d®±É\x80F÷ïíF\x96 ÙÄ^\x83Íå\x07Å\x95%L\x18y<\x00\x836\x9e\x02\x8dNÛ\x89:\x03\x83ÉÀ¯\x9câx\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" HTTPStatus.BAD_REQUEST -
+2023-12-19 22:38:00,936 - ERROR - 83.242.179.148 - - [19/Dec/2023 22:38:00] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x96\x01\x00\x02\x92\x03\x03\\~(\x8aÑ\x90^ÝE{«L&[¦\x1942«#D\x01Z:6\x93\x97\x9a\\wÐ\x8f')
+2023-12-19 22:38:00,937 - INFO - 83.242.179.148 - - [19/Dec/2023 22:38:00] "[35m[1m\x16\x03\x01\x02\x96\x01\x00\x02\x92\x03\x03\\~(\x8aÑ\x90^ÝE{«L&[¦\x1942«#D\x01Z:6\x93\x97\x9a\\wÐ\x8f ¶4\\æ·G¥\x82ÇBí9_º`y­ß\x8a­ñòL\x86¼Oæ\x80ÜS#²\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" HTTPStatus.BAD_REQUEST -
+2023-12-19 22:42:38,889 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.25.0.5:5000
+2023-12-19 22:42:38,898 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-19 22:43:09,486 - INFO - Homepage accessed
+2023-12-19 22:43:09,490 - INFO - 83.242.179.148 - - [19/Dec/2023 22:43:09] "GET / HTTP/1.1" 200 -
+2023-12-19 22:43:10,584 - INFO - 83.242.179.148 - - [19/Dec/2023 22:43:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-19 22:43:14,514 - INFO - 172.25.0.6 - - [19/Dec/2023 22:43:14] "[33mGET /themes/core-beta/static/assets/main.0aaf0d88.css HTTP/1.0[0m" 404 -
+2023-12-19 22:43:15,072 - INFO - 172.25.0.6 - - [19/Dec/2023 22:43:15] "[33mGET /themes/core/static/sounds/notification.webm HTTP/1.0[0m" 404 -
+2023-12-19 22:43:15,074 - INFO - 172.25.0.6 - - [19/Dec/2023 22:43:15] "[33mGET /events HTTP/1.1[0m" 404 -
+2023-12-19 22:43:15,487 - INFO - 172.25.0.6 - - [19/Dec/2023 22:43:15] "[33mGET /themes/core-beta/static/img/favicon.ico?d=69219147 HTTP/1.0[0m" 404 -
+2023-12-19 22:43:17,684 - INFO - 172.25.0.6 - - [19/Dec/2023 22:43:17] "[33mGET /themes/core-beta/static/assets/main.0aaf0d88.css HTTP/1.0[0m" 404 -
+2023-12-19 22:43:17,687 - INFO - 172.25.0.6 - - [19/Dec/2023 22:43:17] "[33mGET /themes/core-beta/static/assets/index.69d1de7e.js HTTP/1.0[0m" 404 -
+2023-12-19 22:43:17,688 - INFO - 172.25.0.6 - - [19/Dec/2023 22:43:17] "[33mGET /themes/core-beta/static/assets/page.a7cd4860.js HTTP/1.0[0m" 404 -
+2023-12-19 22:43:25,242 - INFO - Homepage accessed
+2023-12-19 22:43:25,243 - INFO - 172.25.0.6 - - [19/Dec/2023 22:43:25] "GET / HTTP/1.0" 200 -
+2023-12-19 22:54:16,220 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.27.0.2:5000
+2023-12-19 22:54:16,222 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-19 22:54:19,627 - INFO - Homepage accessed
+2023-12-19 22:54:19,631 - INFO - 83.242.179.148 - - [19/Dec/2023 22:54:19] "GET / HTTP/1.1" 200 -
+2023-12-19 22:54:27,702 - INFO - 172.27.0.6 - - [19/Dec/2023 22:54:27] "[33mGET /themes/core-beta/static/assets/main.0aaf0d88.css HTTP/1.0[0m" 404 -
+2023-12-19 22:54:27,822 - INFO - 172.27.0.6 - - [19/Dec/2023 22:54:27] "[33mGET /files/03a02a881136f74d17903a67ec29bbb8/111mBLcUZl6tcU.jpg HTTP/1.0[0m" 404 -
+2023-12-19 22:54:28,163 - INFO - 172.27.0.6 - - [19/Dec/2023 22:54:28] "[33mGET /events HTTP/1.1[0m" 404 -
+2023-12-19 22:54:28,426 - INFO - 172.27.0.6 - - [19/Dec/2023 22:54:28] "[33mHEAD /api/v1/notifications?since_id=0 HTTP/1.0[0m" 404 -
+2023-12-19 22:54:30,665 - INFO - Homepage accessed
+2023-12-19 22:54:30,665 - INFO - 172.27.0.6 - - [19/Dec/2023 22:54:30] "GET / HTTP/1.0" 200 -
+2023-12-19 22:54:35,550 - INFO - Homepage accessed
+2023-12-19 22:54:35,551 - INFO - 172.27.0.6 - - [19/Dec/2023 22:54:35] "GET / HTTP/1.0" 200 -
+2023-12-19 22:54:40,444 - INFO - Homepage accessed
+2023-12-19 22:54:40,445 - INFO - 172.27.0.6 - - [19/Dec/2023 22:54:40] "GET / HTTP/1.0" 200 -
+2023-12-19 22:57:25,228 - INFO - 172.27.0.6 - - [19/Dec/2023 22:57:25] "[33mGET /themes/core-beta/static/assets/main.0aaf0d88.css HTTP/1.0[0m" 404 -
+2023-12-19 22:57:25,400 - INFO - 172.27.0.6 - - [19/Dec/2023 22:57:25] "[33mGET /themes/core-beta/static/assets/index.69d1de7e.js HTTP/1.0[0m" 404 -
+2023-12-19 22:57:25,495 - INFO - 172.27.0.6 - - [19/Dec/2023 22:57:25] "[33mGET /files/03a02a881136f74d17903a67ec29bbb8/111mBLcUZl6tcU.jpg HTTP/1.0[0m" 404 -
+2023-12-19 22:58:07,177 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.27.0.2:5000
+2023-12-19 22:58:07,177 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-19 23:07:37,839 - INFO - 172.27.0.6 - - [19/Dec/2023 23:07:37] "[33mGET /themes/core-beta/static/assets/index.69d1de7e.js HTTP/1.0[0m" 404 -
+2023-12-19 23:07:38,351 - INFO - 172.27.0.6 - - [19/Dec/2023 23:07:38] "[33mGET /files/03a02a881136f74d17903a67ec29bbb8/111mBLcUZl6tcU.jpg HTTP/1.0[0m" 404 -
+2023-12-19 23:07:44,044 - INFO - Homepage accessed
+2023-12-19 23:07:44,049 - INFO - 172.27.0.6 - - [19/Dec/2023 23:07:44] "GET / HTTP/1.0" 200 -
+2023-12-19 23:07:47,215 - ERROR - 83.242.179.148 - - [19/Dec/2023 23:07:47] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x96\x01\x00\x02\x92\x03\x03T')
+2023-12-19 23:07:47,215 - INFO - 83.242.179.148 - - [19/Dec/2023 23:07:47] "[35m[1m\x16\x03\x01\x02\x96\x01\x00\x02\x92\x03\x03T\x09^Ë[0m" HTTPStatus.BAD_REQUEST -
+2023-12-19 23:07:51,141 - INFO - Homepage accessed
+2023-12-19 23:07:51,142 - INFO - 83.242.179.148 - - [19/Dec/2023 23:07:51] "GET / HTTP/1.1" 200 -
+2023-12-19 23:07:52,021 - INFO - 83.242.179.148 - - [19/Dec/2023 23:07:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-19 23:09:56,949 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.27.0.2:5000
+2023-12-19 23:09:56,949 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-19 23:12:00,321 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.27.0.2:5000
+2023-12-19 23:12:00,325 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-19 23:13:22,575 - INFO - Homepage accessed
+2023-12-19 23:13:22,579 - INFO - 83.242.179.148 - - [19/Dec/2023 23:13:22] "GET / HTTP/1.1" 200 -
+2023-12-19 23:13:23,266 - INFO - 83.242.179.148 - - [19/Dec/2023 23:13:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-19 23:13:26,609 - INFO - 172.27.0.6 - - [19/Dec/2023 23:13:26] "[33mGET /themes/core-beta/static/assets/main.0aaf0d88.css HTTP/1.0[0m" 404 -
+2023-12-19 23:13:26,791 - INFO - 172.27.0.6 - - [19/Dec/2023 23:13:26] "[33mGET /themes/core-beta/static/assets/index.69d1de7e.js HTTP/1.0[0m" 404 -
+2023-12-19 23:13:27,303 - INFO - 172.27.0.6 - - [19/Dec/2023 23:13:27] "[33mGET /themes/core-beta/static/img/favicon.ico?d=31ed7644 HTTP/1.0[0m" 404 -
+2023-12-19 23:14:48,725 - INFO - Homepage accessed
+2023-12-19 23:14:48,726 - INFO - 172.27.0.6 - - [19/Dec/2023 23:14:48] "GET / HTTP/1.0" 200 -
+2023-12-19 23:14:52,911 - INFO - 172.27.0.6 - - [19/Dec/2023 23:14:52] "[33mGET /themes/core-beta/static/assets/main.0aaf0d88.css HTTP/1.0[0m" 404 -
+2023-12-19 23:14:53,164 - INFO - 172.27.0.6 - - [19/Dec/2023 23:14:53] "[33mGET /files/03a02a881136f74d17903a67ec29bbb8/111mBLcUZl6tcU.jpg HTTP/1.0[0m" 404 -
+2023-12-19 23:14:53,881 - INFO - 172.27.0.6 - - [19/Dec/2023 23:14:53] "[33mGET /themes/core-beta/static/assets/main.0aaf0d88.css HTTP/1.0[0m" 404 -
+2023-12-19 23:14:53,942 - INFO - 172.27.0.6 - - [19/Dec/2023 23:14:53] "[33mGET /files/03a02a881136f74d17903a67ec29bbb8/111mBLcUZl6tcU.jpg HTTP/1.0[0m" 404 -
+2023-12-19 23:14:54,866 - INFO - 172.27.0.6 - - [19/Dec/2023 23:14:54] "[33mGET /themes/core-beta/static/assets/main.0aaf0d88.css HTTP/1.0[0m" 404 -
+2023-12-19 23:14:54,925 - INFO - 172.27.0.6 - - [19/Dec/2023 23:14:54] "[33mGET /files/6b835365470f5dbc2683abbf2fd16c1a/1525033621367.png HTTP/1.0[0m" 404 -
+2023-12-19 23:15:00,218 - INFO - 172.27.0.6 - - [19/Dec/2023 23:15:00] "[33mGET /themes/core-beta/static/assets/main.0aaf0d88.css HTTP/1.0[0m" 404 -
+2023-12-19 23:15:00,288 - INFO - 172.27.0.6 - - [19/Dec/2023 23:15:00] "[33mGET /files/03a02a881136f74d17903a67ec29bbb8/111mBLcUZl6tcU.jpg HTTP/1.0[0m" 404 -
+2023-12-19 23:15:09,310 - INFO - 172.27.0.6 - - [19/Dec/2023 23:15:09] "[33mGET /themes/core-beta/static/assets/main.0aaf0d88.css HTTP/1.0[0m" 404 -
+2023-12-19 23:15:09,373 - INFO - 172.27.0.6 - - [19/Dec/2023 23:15:09] "[33mGET /files/6b835365470f5dbc2683abbf2fd16c1a/1525033621367.png HTTP/1.0[0m" 404 -
+2023-12-19 23:18:37,462 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.28.0.4:5000
+2023-12-19 23:18:37,465 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-19 23:24:55,396 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.30.0.4:5000
+2023-12-19 23:24:55,398 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-19 23:28:48,598 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.16.4:5000
+2023-12-19 23:28:48,598 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-19 23:29:26,278 - ERROR - 83.242.179.148 - - [19/Dec/2023 23:29:26] code 400, message Bad request version ('_\x80y\x8a\x9c\x11\x80\x9bò\x02ÏÀ¡Ï¢\x95ûK©\xad©mM\x89©l<Í\x9c\x15-¢\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2023-12-19 23:29:26,278 - INFO - 83.242.179.148 - - [19/Dec/2023 23:29:26] "[35m[1m\x16\x03\x01\x02\x8c\x01\x00\x02\x88\x03\x03\x05!ù\x11\x12uo\x1bW\x10Íñá.ÓófP^\x04üÄà< ÃÐ\x91Ïy\x18u _\x80y\x8a\x9c\x11\x80\x9bò\x02ÏÀ¡Ï¢\x95ûK©­©mM\x89©l<Í\x9c\x15-¢\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" HTTPStatus.BAD_REQUEST -
+2023-12-19 23:29:31,178 - INFO - Homepage accessed
+2023-12-19 23:29:31,183 - INFO - 83.242.179.148 - - [19/Dec/2023 23:29:31] "GET / HTTP/1.1" 200 -
+2023-12-19 23:29:31,367 - INFO - 83.242.179.148 - - [19/Dec/2023 23:29:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-19 23:29:38,010 - INFO - Homepage accessed
+2023-12-19 23:29:38,011 - INFO - 83.242.179.148 - - [19/Dec/2023 23:29:38] "GET / HTTP/1.1" 200 -
+2023-12-19 23:31:38,676 - INFO - Homepage accessed
+2023-12-19 23:31:38,677 - INFO - 83.242.179.148 - - [19/Dec/2023 23:31:38] "GET / HTTP/1.1" 200 -
+2023-12-19 23:45:08,438 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.32.5:5000
+2023-12-19 23:45:08,440 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-19 23:45:40,877 - INFO - Homepage accessed
+2023-12-19 23:45:40,881 - INFO - 83.242.179.148 - - [19/Dec/2023 23:45:40] "GET / HTTP/1.1" 200 -
+2023-12-19 23:56:13,248 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.32.4:5000
+2023-12-19 23:56:13,252 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-20 00:09:02,522 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.64.5:5000
+2023-12-20 00:09:02,523 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-20 01:28:30,996 - INFO - Homepage accessed
+2023-12-20 01:28:31,001 - INFO - 198.235.24.240 - - [20/Dec/2023 01:28:31] "GET / HTTP/1.1" 200 -
+2023-12-20 03:06:55,670 - INFO - 83.242.179.148 - - [20/Dec/2023 03:06:55] "[33mGET /afawefa HTTP/1.1[0m" 404 -
+2023-12-20 03:44:45,926 - ERROR - 167.94.146.57 - - [20/Dec/2023 03:44:45] code 400, message Bad request syntax ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03éÖ`À\x1abtÕ%\x08+d»L|vU')
+2023-12-20 03:44:45,926 - INFO - 167.94.146.57 - - [20/Dec/2023 03:44:45] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03éÖ`À\x1abtÕ%\x08+d»L|vU[0m" HTTPStatus.BAD_REQUEST -
+2023-12-20 03:44:48,960 - INFO - Homepage accessed
+2023-12-20 03:44:48,960 - INFO - 167.94.146.57 - - [20/Dec/2023 03:44:48] "GET / HTTP/1.1" 200 -
+2023-12-20 03:44:51,965 - INFO - Homepage accessed
+2023-12-20 03:44:51,966 - INFO - 167.94.146.57 - - [20/Dec/2023 03:44:51] "GET / HTTP/1.1" 200 -
+2023-12-20 03:44:51,973 - ERROR - 167.94.146.57 - - [20/Dec/2023 03:44:51] code 505, message Invalid HTTP version (2.0)
+2023-12-20 03:44:51,973 - INFO - 167.94.146.57 - - [20/Dec/2023 03:44:51] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+2023-12-20 03:44:51,977 - INFO - 167.94.146.57 - - [20/Dec/2023 03:44:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-20 04:24:05,073 - INFO - Homepage accessed
+2023-12-20 04:24:05,074 - INFO - 183.136.225.42 - - [20/Dec/2023 04:24:05] "GET / HTTP/1.1" 200 -
+2023-12-20 04:24:05,652 - INFO - Homepage accessed
+2023-12-20 04:24:05,653 - INFO - 183.136.225.42 - - [20/Dec/2023 04:24:05] "GET / HTTP/1.1" 200 -
+2023-12-20 04:24:06,195 - INFO - 183.136.225.42 - - [20/Dec/2023 04:24:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-20 04:24:06,816 - INFO - 183.136.225.42 - - [20/Dec/2023 04:24:06] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+2023-12-20 04:56:10,789 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.64.3:5000
+2023-12-20 04:56:10,789 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-20 05:02:13,095 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.112.4:5000
+2023-12-20 05:02:13,095 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-20 05:03:13,209 - INFO - Homepage accessed
+2023-12-20 05:03:13,213 - INFO - 83.242.179.148 - - [20/Dec/2023 05:03:13] "GET / HTTP/1.1" 200 -
+2023-12-20 05:03:14,712 - INFO - 83.242.179.148 - - [20/Dec/2023 05:03:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-20 06:08:10,743 - INFO - Homepage accessed
+2023-12-20 06:08:10,744 - INFO - 205.210.31.15 - - [20/Dec/2023 06:08:10] "GET / HTTP/1.1" 200 -
+2023-12-20 06:11:53,365 - INFO - Homepage accessed
+2023-12-20 06:11:53,366 - INFO - 185.79.103.141 - - [20/Dec/2023 06:11:53] "GET / HTTP/1.1" 200 -
+2023-12-20 06:12:07,755 - INFO - Homepage accessed
+2023-12-20 06:12:07,755 - INFO - 185.79.103.141 - - [20/Dec/2023 06:12:07] "GET / HTTP/1.1" 200 -
+2023-12-20 06:17:07,498 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.128.4:5000
+2023-12-20 06:17:07,501 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-20 07:57:17,947 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.160.2:5000
+2023-12-20 07:57:17,948 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-20 08:01:05,590 - INFO - Homepage accessed
+2023-12-20 08:01:05,594 - INFO - 91.193.178.25 - - [20/Dec/2023 08:01:05] "GET / HTTP/1.1" 200 -
+2023-12-20 08:01:07,030 - INFO - 91.193.178.25 - - [20/Dec/2023 08:01:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-20 08:17:33,919 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.208.4:5000
+2023-12-20 08:17:33,920 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-20 08:33:37,165 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.224.3:5000
+2023-12-20 08:33:37,165 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-20 08:44:35,715 - INFO - Homepage accessed
+2023-12-20 08:44:35,719 - INFO - 91.193.178.25 - - [20/Dec/2023 08:44:35] "GET / HTTP/1.1" 200 -
+2023-12-20 12:45:41,651 - INFO - Homepage accessed
+2023-12-20 12:45:41,651 - INFO - 83.242.179.137 - - [20/Dec/2023 12:45:41] "GET / HTTP/1.1" 200 -
+2023-12-20 15:29:09,060 - ERROR - 167.248.133.53 - - [20/Dec/2023 15:29:09] code 400, message Bad request version ('À\x14À')
+2023-12-20 15:29:09,060 - INFO - 167.248.133.53 - - [20/Dec/2023 15:29:09] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x92D\x87EìÐ(~æg»ÞA\x1bâg%\x1fº\x8e!fñXµ=¶\x035Ç*Õ kRY\x91Xu¹mAªêÝ}Ï]ëj"ºØ}{z+u\x09bÏÔ ã&\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+2023-12-20 15:29:12,277 - INFO - Homepage accessed
+2023-12-20 15:29:12,278 - INFO - 167.248.133.53 - - [20/Dec/2023 15:29:12] "GET / HTTP/1.1" 200 -
+2023-12-20 15:29:15,539 - INFO - Homepage accessed
+2023-12-20 15:29:15,539 - INFO - 167.248.133.53 - - [20/Dec/2023 15:29:15] "GET / HTTP/1.1" 200 -
+2023-12-20 15:29:15,769 - ERROR - 167.248.133.53 - - [20/Dec/2023 15:29:15] code 505, message Invalid HTTP version (2.0)
+2023-12-20 15:29:15,769 - INFO - 167.248.133.53 - - [20/Dec/2023 15:29:15] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+2023-12-20 15:29:15,997 - INFO - 167.248.133.53 - - [20/Dec/2023 15:29:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-20 19:12:43,789 - ERROR - 83.242.179.156 - - [20/Dec/2023 19:12:43] code 400, message Bad request version ('\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01ç\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+2023-12-20 19:12:43,789 - INFO - 83.242.179.156 - - [20/Dec/2023 19:12:43] "[35m[1m\x16\x03\x01\x02R\x01\x00\x02N\x03\x03Tò·ÁN`<¹ÓHAO$eA¾Iî\x02ÒÐd@rùÞß&\x13'³i ® W\x18fÆ\x02»\x8eÖ\x17f\x8aï0î7%'ùÉ-mßØ¶\x95»Îõ¨\x11\x00\x1e\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01ç\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+2023-12-20 19:12:45,496 - INFO - Homepage accessed
+2023-12-20 19:12:45,497 - INFO - 83.242.179.156 - - [20/Dec/2023 19:12:45] "GET / HTTP/1.1" 200 -
+2023-12-20 19:12:46,180 - INFO - 83.242.179.156 - - [20/Dec/2023 19:12:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-20 22:18:23,028 - ERROR - 162.142.125.226 - - [20/Dec/2023 22:18:23] code 400, message Bad request version ('À\x14À')
+2023-12-20 22:18:23,028 - INFO - 162.142.125.226 - - [20/Dec/2023 22:18:23] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x8bºAA\x83áÀ\x06\x06ËqRIïþG´Ý±'\x1cÑ¸\x18Ûÿ.jólpö ?\x05í\x87©ÌÝóe:^ðWì\x80rêÑñ¹\x06e\x85\x1div\x90 ÔõX\x83\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+2023-12-20 22:18:26,284 - INFO - Homepage accessed
+2023-12-20 22:18:26,285 - INFO - 162.142.125.226 - - [20/Dec/2023 22:18:26] "GET / HTTP/1.1" 200 -
+2023-12-20 22:18:29,887 - INFO - Homepage accessed
+2023-12-20 22:18:29,888 - INFO - 162.142.125.226 - - [20/Dec/2023 22:18:29] "GET / HTTP/1.1" 200 -
+2023-12-20 22:18:30,107 - ERROR - 162.142.125.226 - - [20/Dec/2023 22:18:30] code 505, message Invalid HTTP version (2.0)
+2023-12-20 22:18:30,107 - INFO - 162.142.125.226 - - [20/Dec/2023 22:18:30] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+2023-12-20 22:18:30,331 - INFO - 162.142.125.226 - - [20/Dec/2023 22:18:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-20 23:35:01,841 - ERROR - 172.104.11.51 - - [20/Dec/2023 23:35:01] code 400, message Bad request version ('À\x14À')
+2023-12-20 23:35:01,841 - INFO - 172.104.11.51 - - [20/Dec/2023 23:35:01] "[35m[1m\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03lcë&=\x04ºy\x9c¼\x90\x8a-\x8aE\x7f\x0e\x88\x9fº@÷\x82î­WK+*\x9c\x80;\x00\x00 À/À0À+À,Ì¨Ì©À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+2023-12-20 23:46:05,080 - INFO - Homepage accessed
+2023-12-20 23:46:05,080 - INFO - 45.79.168.172 - - [20/Dec/2023 23:46:05] "GET / HTTP/1.1" 200 -
+2023-12-20 23:46:43,312 - INFO - Homepage accessed
+2023-12-20 23:46:43,313 - INFO - 192.155.90.118 - - [20/Dec/2023 23:46:43] "GET / HTTP/1.1" 200 -
+2023-12-21 00:01:04,873 - INFO - Homepage accessed
+2023-12-21 00:01:04,874 - INFO - 45.33.87.154 - - [21/Dec/2023 00:01:04] "GET / HTTP/1.1" 200 -
+2023-12-21 00:01:55,416 - INFO - Homepage accessed
+2023-12-21 00:01:55,416 - INFO - 45.33.80.243 - - [21/Dec/2023 00:01:55] "GET / HTTP/1.1" 200 -
+2023-12-21 02:07:32,029 - INFO - Homepage accessed
+2023-12-21 02:07:32,029 - INFO - 198.235.24.214 - - [21/Dec/2023 02:07:32] "GET / HTTP/1.1" 200 -
+2023-12-21 06:05:24,708 - INFO - Homepage accessed
+2023-12-21 06:05:24,709 - INFO - 198.235.24.40 - - [21/Dec/2023 06:05:24] "GET / HTTP/1.0" 200 -
+2023-12-21 06:07:27,451 - INFO - Homepage accessed
+2023-12-21 06:07:27,452 - INFO - 83.242.179.154 - - [21/Dec/2023 06:07:27] "GET / HTTP/1.1" 200 -
+2023-12-21 06:07:29,685 - INFO - 83.242.179.154 - - [21/Dec/2023 06:07:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-21 07:28:30,894 - INFO - Homepage accessed
+2023-12-21 07:28:30,895 - INFO - 45.79.163.53 - - [21/Dec/2023 07:28:30] "GET / HTTP/1.1" 200 -
+2023-12-21 07:29:00,744 - INFO - Homepage accessed
+2023-12-21 07:29:00,745 - INFO - 172.104.11.46 - - [21/Dec/2023 07:29:00] "GET / HTTP/1.1" 200 -
+2023-12-21 08:10:27,707 - ERROR - 167.94.138.126 - - [21/Dec/2023 08:10:27] code 400, message Bad request version ('À\x14À')
+2023-12-21 08:10:27,708 - INFO - 167.94.138.126 - - [21/Dec/2023 08:10:27] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x83\x84>RZ®\x8dc\x0f\x1a>X³êð]¶\x7fT\x15ÅÆ¬ñN\x93æ@añ\x0dN Ú\x00\x91µJìÓÒ2\x82ÚÖ½C´ÛÿI'f(ôrÔ÷ÊStê½\x11C\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+2023-12-21 08:10:31,157 - INFO - Homepage accessed
+2023-12-21 08:10:31,157 - INFO - 167.94.138.126 - - [21/Dec/2023 08:10:31] "GET / HTTP/1.1" 200 -
+2023-12-21 08:10:34,828 - INFO - Homepage accessed
+2023-12-21 08:10:34,829 - INFO - 167.94.138.126 - - [21/Dec/2023 08:10:34] "GET / HTTP/1.1" 200 -
+2023-12-21 08:10:35,147 - ERROR - 167.94.138.126 - - [21/Dec/2023 08:10:35] code 505, message Invalid HTTP version (2.0)
+2023-12-21 08:10:35,147 - INFO - 167.94.138.126 - - [21/Dec/2023 08:10:35] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+2023-12-21 08:10:35,426 - INFO - 167.94.138.126 - - [21/Dec/2023 08:10:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-21 08:28:19,014 - INFO - Homepage accessed
+2023-12-21 08:28:19,014 - INFO - 45.79.168.172 - - [21/Dec/2023 08:28:19] "GET / HTTP/1.1" 200 -
+2023-12-21 08:28:54,003 - INFO - Homepage accessed
+2023-12-21 08:28:54,004 - INFO - 45.79.181.223 - - [21/Dec/2023 08:28:54] "GET / HTTP/1.1" 200 -
+2023-12-21 09:02:42,435 - INFO - Homepage accessed
+2023-12-21 09:02:42,436 - INFO - 89.113.144.64 - - [21/Dec/2023 09:02:42] "GET / HTTP/1.1" 200 -
+2023-12-21 10:22:03,168 - ERROR - 91.191.209.206 - - [21/Dec/2023 10:22:03] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2023-12-21 10:22:03,168 - INFO - 91.191.209.206 - - [21/Dec/2023 10:22:03] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+2023-12-21 11:22:43,666 - ERROR - 62.233.50.179 - - [21/Dec/2023 11:22:43] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2023-12-21 11:22:43,666 - INFO - 62.233.50.179 - - [21/Dec/2023 11:22:43] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+2023-12-21 12:30:13,125 - ERROR - 91.191.209.206 - - [21/Dec/2023 12:30:13] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2023-12-21 12:30:13,125 - INFO - 91.191.209.206 - - [21/Dec/2023 12:30:13] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+2023-12-21 13:19:02,608 - ERROR - 45.128.232.159 - - [21/Dec/2023 13:19:02] code 400, message Bad request syntax ('JDWP-Handshake')
+2023-12-21 13:19:02,609 - INFO - 45.128.232.159 - - [21/Dec/2023 13:19:02] "[35m[1mJDWP-Handshake[0m" HTTPStatus.BAD_REQUEST -
+2023-12-21 16:23:04,373 - ERROR - 167.94.146.60 - - [21/Dec/2023 16:23:04] code 400, message Bad request version ('À\x14À')
+2023-12-21 16:23:04,373 - INFO - 167.94.146.60 - - [21/Dec/2023 16:23:04] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x03â\x9apGåãw7\x1dñ³\x1d\x12,Áf\x07ÐYW|è³{Þ¼\x19Ä\x83\x0e\x7f \x99\x9c \x8e\x8d~Ô\x88üjü\x86\x8drw6\x0c\x12JûÁåfõ¸Öfu=n\x8e¬\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+2023-12-21 16:23:07,487 - INFO - Homepage accessed
+2023-12-21 16:23:07,488 - INFO - 167.94.146.60 - - [21/Dec/2023 16:23:07] "GET / HTTP/1.1" 200 -
+2023-12-21 16:23:11,487 - INFO - Homepage accessed
+2023-12-21 16:23:11,488 - INFO - 167.94.146.60 - - [21/Dec/2023 16:23:11] "GET / HTTP/1.1" 200 -
+2023-12-21 16:23:11,617 - ERROR - 167.94.146.60 - - [21/Dec/2023 16:23:11] code 505, message Invalid HTTP version (2.0)
+2023-12-21 16:23:11,617 - INFO - 167.94.146.60 - - [21/Dec/2023 16:23:11] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+2023-12-21 16:23:11,623 - INFO - 167.94.146.60 - - [21/Dec/2023 16:23:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-21 16:23:52,670 - ERROR - 62.233.50.179 - - [21/Dec/2023 16:23:52] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2023-12-21 16:23:52,671 - INFO - 62.233.50.179 - - [21/Dec/2023 16:23:52] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+2023-12-21 17:27:36,004 - ERROR - 143.110.172.220 - - [21/Dec/2023 17:27:36] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01ý\x01\x00\x01ù\x03\x03\x02Ï4ÄJ\\')
+2023-12-21 17:27:36,004 - INFO - 143.110.172.220 - - [21/Dec/2023 17:27:36] "[35m[1m\x16\x03\x01\x01ý\x01\x00\x01ù\x03\x03\x02Ï4ÄJ\\\x0cJÚ\x99\x89\\\x9f\x9eÂÙ²Ó/Rss\x9b'\x121\x92b¿ÍE)\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À[0m" HTTPStatus.BAD_REQUEST -
+2023-12-21 18:27:55,828 - ERROR - 185.170.144.3 - - [21/Dec/2023 18:27:55] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2023-12-21 18:27:55,828 - INFO - 185.170.144.3 - - [21/Dec/2023 18:27:55] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+2023-12-21 19:26:21,204 - INFO - 107.170.247.44 - - [21/Dec/2023 19:26:21] "[33mGET /v2/ HTTP/1.1[0m" 404 -
+2023-12-21 23:34:16,757 - ERROR - 172.104.11.4 - - [21/Dec/2023 23:34:16] code 400, message Bad request version ('À\x14À')
+2023-12-21 23:34:16,758 - INFO - 172.104.11.4 - - [21/Dec/2023 23:34:16] "[35m[1m\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03^\x145\x0d\x8a¤\x92\x83_\x1d·~¬*»\x175\x82Ú\x98sE¶9\x8eÂ¦@\x905£\x12\x00\x00 À/À0À+À,Ì¨Ì©À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+2023-12-21 23:46:19,773 - INFO - Homepage accessed
+2023-12-21 23:46:19,774 - INFO - 192.155.88.231 - - [21/Dec/2023 23:46:19] "GET / HTTP/1.1" 200 -
+2023-12-21 23:46:41,503 - INFO - Homepage accessed
+2023-12-21 23:46:41,504 - INFO - 172.104.11.46 - - [21/Dec/2023 23:46:41] "GET / HTTP/1.1" 200 -
+2023-12-22 00:31:19,596 - INFO - Homepage accessed
+2023-12-22 00:31:19,597 - INFO - 192.155.88.231 - - [22/Dec/2023 00:31:19] "GET / HTTP/1.1" 200 -
+2023-12-22 00:38:24,468 - INFO - Homepage accessed
+2023-12-22 00:38:24,469 - INFO - 45.79.181.251 - - [22/Dec/2023 00:38:24] "GET / HTTP/1.1" 200 -
+2023-12-22 02:07:47,808 - INFO - Homepage accessed
+2023-12-22 02:07:47,808 - INFO - 178.79.139.171 - - [22/Dec/2023 02:07:47] "GET / HTTP/1.0" 200 -
+2023-12-22 02:07:47,875 - ERROR - 178.79.139.171 - - [22/Dec/2023 02:07:47] code 400, message Bad request version ('RTSP/1.0')
+2023-12-22 02:07:47,875 - INFO - 178.79.139.171 - - [22/Dec/2023 02:07:47] "[35m[1mOPTIONS / RTSP/1.0[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 02:07:52,918 - ERROR - 178.79.139.171 - - [22/Dec/2023 02:07:52] code 400, message Bad HTTP/0.9 request type ('\x00')
+2023-12-22 02:07:52,918 - INFO - 178.79.139.171 - - [22/Dec/2023 02:07:52] "[35m[1m\x00\x1e\x00\x06\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07version\x04bind\x00\x00\x10\x00\x03[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 02:07:57,938 - ERROR - 178.79.139.171 - - [22/Dec/2023 02:07:57] code 400, message Bad request version ('0.12\x00')
+2023-12-22 02:07:57,939 - INFO - 178.79.139.171 - - [22/Dec/2023 02:07:57] "[35m[1m\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 02:08:02,959 - ERROR - 178.79.139.171 - - [22/Dec/2023 02:08:02] code 400, message Bad request version ('GetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00')
+2023-12-22 02:08:02,959 - INFO - 178.79.139.171 - - [22/Dec/2023 02:08:02] "[35m[1m\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x00\x00\x0cGetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 02:08:02,981 - INFO - 178.79.139.171 - - [22/Dec/2023 02:08:02] "OPTIONS / HTTP/1.0" 200 -
+2023-12-22 02:08:08,036 - ERROR - 178.79.139.171 - - [22/Dec/2023 02:08:08] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+2023-12-22 02:08:08,036 - INFO - 178.79.139.171 - - [22/Dec/2023 02:08:08] "[35m[1m\x80\x00\x00(rþ\x1d\x13\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86 \x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 02:08:08,054 - ERROR - 178.79.139.171 - - [22/Dec/2023 02:08:08] code 400, message Bad request syntax ('HELP')
+2023-12-22 02:08:08,054 - INFO - 178.79.139.171 - - [22/Dec/2023 02:08:08] "[35m[1mHELP[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 02:08:08,093 - ERROR - 178.79.139.171 - - [22/Dec/2023 02:08:08] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+2023-12-22 02:08:08,093 - INFO - 178.79.139.171 - - [22/Dec/2023 02:08:08] "[35m[1m\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 02:08:08,133 - ERROR - 178.79.139.171 - - [22/Dec/2023 02:08:08] code 400, message Bad request version ('\x00/\x00')
+2023-12-22 02:08:08,133 - INFO - 178.79.139.171 - - [22/Dec/2023 02:08:08] "[35m[1m\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 02:08:08,175 - ERROR - 178.79.139.171 - - [22/Dec/2023 02:08:08] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+2023-12-22 02:08:08,176 - INFO - 178.79.139.171 - - [22/Dec/2023 02:08:08] "[35m[1m\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 02:08:13,218 - ERROR - 178.79.139.171 - - [22/Dec/2023 02:08:13] code 400, message Bad HTTP/0.9 request type ('l\x00')
+2023-12-22 02:08:13,218 - INFO - 178.79.139.171 - - [22/Dec/2023 02:08:13] "[35m[1ml\x00\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 02:08:13,235 - ERROR - 178.79.139.171 - - [22/Dec/2023 02:08:13] code 400, message Bad request version ('SIP/2.0')
+2023-12-22 02:08:13,236 - INFO - 178.79.139.171 - - [22/Dec/2023 02:08:13] "[35m[1mOPTIONS sip:nm SIP/2.0[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 02:08:19,174 - ERROR - 178.79.139.171 - - [22/Dec/2023 02:08:19] code 400, message Bad request version ('\x00/\x00')
+2023-12-22 02:08:19,174 - INFO - 178.79.139.171 - - [22/Dec/2023 02:08:19] "[35m[1m\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 02:08:28,450 - ERROR - 178.79.139.171 - - [22/Dec/2023 02:08:28] code 400, message Bad request version ('\x8dïu\x81\x91"Åd\x88Õ\x9bÆÕº"Àk\x89*Ü0\\Ã\x02\x84D)\x00\x9c\x13\x02\x13\x03\x13\x01\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀSÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À\'\x00g\x00@ÀrÀv\x00¾\x00½À')
+2023-12-22 02:08:28,450 - INFO - 178.79.139.171 - - [22/Dec/2023 02:08:28] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x95dþ×\x1c(\x01Hjå¨ÕuÂ\x18+ÙÀè>¬âÚÔ\x8f½oÄ\x00wM\x1b \x0c_ài\x0d\x8dïu\x81\x91"Åd\x88Õ\x9bÆÕº"Àk\x89*Ü0\\Ã\x02\x84D)\x00\x9c\x13\x02\x13\x03\x13\x01\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À­À£À\x9fÀ]ÀaÀWÀSÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½À[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 02:08:29,121 - ERROR - 178.79.139.171 - - [22/Dec/2023 02:08:29] code 400, message Bad request syntax ('\x0e\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbbb0100000001')
+2023-12-22 02:08:29,121 - INFO - 178.79.139.171 - - [22/Dec/2023 02:08:29] "[35m[1m\x0e\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbbb0100000001[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 03:10:03,521 - ERROR - 139.59.188.216 - - [22/Dec/2023 03:10:03] code 400, message Bad request syntax ('\x16\x03\x01\x01ý\x01\x00\x01ù\x03\x03VyñÔF\x86Ðäã\x83ñøL\x861\x16\x19®\x83#¤\x8c\x0eö[Ð\x91m¯Û²²\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À')
+2023-12-22 03:10:03,522 - INFO - 139.59.188.216 - - [22/Dec/2023 03:10:03] "[35m[1m\x16\x03\x01\x01ý\x01\x00\x01ù\x03\x03VyñÔF\x86Ðäã\x83ñøL\x861\x16\x19®\x83#¤\x8c\x0eö[Ð\x91m¯Û²²\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 03:18:46,699 - INFO - Homepage accessed
+2023-12-22 03:18:46,700 - INFO - 198.235.24.224 - - [22/Dec/2023 03:18:46] "GET / HTTP/1.0" 200 -
+2023-12-22 04:41:24,747 - INFO - Homepage accessed
+2023-12-22 04:41:24,748 - INFO - 198.235.24.52 - - [22/Dec/2023 04:41:24] "GET / HTTP/1.1" 200 -
+2023-12-22 04:55:11,018 - INFO - Homepage accessed
+2023-12-22 04:55:11,018 - INFO - 45.79.163.53 - - [22/Dec/2023 04:55:11] "GET / HTTP/1.1" 200 -
+2023-12-22 04:55:44,722 - INFO - Homepage accessed
+2023-12-22 04:55:44,723 - INFO - 45.79.181.179 - - [22/Dec/2023 04:55:44] "GET / HTTP/1.1" 200 -
+2023-12-22 05:29:57,135 - INFO - Homepage accessed
+2023-12-22 05:29:57,136 - INFO - 45.79.163.53 - - [22/Dec/2023 05:29:57] "GET / HTTP/1.1" 200 -
+2023-12-22 05:30:16,998 - INFO - Homepage accessed
+2023-12-22 05:30:16,998 - INFO - 172.104.11.4 - - [22/Dec/2023 05:30:16] "GET / HTTP/1.1" 200 -
+2023-12-22 06:37:59,745 - INFO - 5.255.115.40 - - [22/Dec/2023 06:37:59] "[33mCONNECT www.google.com:443 HTTP/1.1[0m" 404 -
+2023-12-22 06:39:01,977 - INFO - 5.255.115.40 - - [22/Dec/2023 06:39:01] "[33mCONNECT www.google.com:443 HTTP/1.1[0m" 404 -
+2023-12-22 06:54:34,995 - INFO - 77.246.159.189 - - [22/Dec/2023 06:54:34] "[33mCONNECT www.google.com:443 HTTP/1.1[0m" 404 -
+2023-12-22 06:56:29,479 - INFO - 77.246.159.189 - - [22/Dec/2023 06:56:29] "[33mCONNECT www.google.com:443 HTTP/1.1[0m" 404 -
+2023-12-22 07:17:55,337 - INFO - 5.255.106.30 - - [22/Dec/2023 07:17:55] "[33mCONNECT www.google.com:443 HTTP/1.1[0m" 404 -
+2023-12-22 07:20:15,696 - INFO - 5.255.106.30 - - [22/Dec/2023 07:20:15] "[33mCONNECT www.google.com:443 HTTP/1.1[0m" 404 -
+2023-12-22 07:40:52,055 - ERROR - 35.203.210.217 - - [22/Dec/2023 07:40:52] code 400, message Bad request version ('\x159-\x15àÄ\x97CëËÉ8½Ä\x08%[\x95JO¬÷ø\x08ã,½')
+2023-12-22 07:40:52,055 - INFO - 35.203.210.217 - - [22/Dec/2023 07:40:52] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03vT\x09]¹i\x88\x1b¯Ê\x9cÑï¶ß\x0f\x95\x17\x09\x9c?C\x8dH\x80Ö\x8eCY1«\x06 \x159-\x15àÄ\x97CëËÉ8½Ä\x08%[\x95JO¬÷ø\x08ã,½[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 07:40:52,084 - ERROR - 35.203.210.217 - - [22/Dec/2023 07:40:52] code 400, message Bad request version ('À(À$À\x14À')
+2023-12-22 07:40:52,084 - INFO - 35.203.210.217 - - [22/Dec/2023 07:40:52] "[35m[1m\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03ÊßkÂ3ß\x0e(¨Õ>\x88{UsºöÕ\x0d\x07\x8d'ó\x18­gp¬%§-ì\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 08:18:13,203 - ERROR - 212.70.149.142 - - [22/Dec/2023 08:18:13] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2023-12-22 08:18:13,203 - INFO - 212.70.149.142 - - [22/Dec/2023 08:18:13] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 08:55:36,916 - ERROR - 212.70.149.142 - - [22/Dec/2023 08:55:36] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2023-12-22 08:55:36,916 - INFO - 212.70.149.142 - - [22/Dec/2023 08:55:36] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 08:59:29,573 - ERROR - 212.70.149.146 - - [22/Dec/2023 08:59:29] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2023-12-22 08:59:29,573 - INFO - 212.70.149.146 - - [22/Dec/2023 08:59:29] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 09:49:18,247 - INFO - Homepage accessed
+2023-12-22 09:49:18,248 - INFO - 205.210.31.249 - - [22/Dec/2023 09:49:18] "GET / HTTP/1.1" 200 -
+2023-12-22 09:55:00,816 - ERROR - 212.70.149.146 - - [22/Dec/2023 09:55:00] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2023-12-22 09:55:00,817 - INFO - 212.70.149.146 - - [22/Dec/2023 09:55:00] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 10:08:58,942 - ERROR - 212.70.149.146 - - [22/Dec/2023 10:08:58] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2023-12-22 10:08:58,942 - INFO - 212.70.149.146 - - [22/Dec/2023 10:08:58] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 10:21:58,732 - ERROR - 212.70.149.146 - - [22/Dec/2023 10:21:58] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2023-12-22 10:21:58,732 - INFO - 212.70.149.146 - - [22/Dec/2023 10:21:58] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 10:47:14,316 - INFO - Homepage accessed
+2023-12-22 10:47:14,317 - INFO - 139.162.142.167 - - [22/Dec/2023 10:47:14] "GET / HTTP/1.0" 200 -
+2023-12-22 10:47:14,343 - ERROR - 139.162.142.167 - - [22/Dec/2023 10:47:14] code 400, message Bad request version ('RTSP/1.0')
+2023-12-22 10:47:14,344 - INFO - 139.162.142.167 - - [22/Dec/2023 10:47:14] "[35m[1mOPTIONS / RTSP/1.0[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 10:47:19,361 - ERROR - 139.162.142.167 - - [22/Dec/2023 10:47:19] code 400, message Bad HTTP/0.9 request type ('\x00')
+2023-12-22 10:47:19,361 - INFO - 139.162.142.167 - - [22/Dec/2023 10:47:19] "[35m[1m\x00\x1e\x00\x06\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07version\x04bind\x00\x00\x10\x00\x03[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 10:47:24,371 - ERROR - 139.162.142.167 - - [22/Dec/2023 10:47:24] code 400, message Bad request version ('0.12\x00')
+2023-12-22 10:47:24,371 - INFO - 139.162.142.167 - - [22/Dec/2023 10:47:24] "[35m[1m\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 10:47:29,381 - ERROR - 139.162.142.167 - - [22/Dec/2023 10:47:29] code 400, message Bad request version ('GetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00')
+2023-12-22 10:47:29,381 - INFO - 139.162.142.167 - - [22/Dec/2023 10:47:29] "[35m[1m\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x00\x00\x0cGetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 10:47:29,389 - INFO - 139.162.142.167 - - [22/Dec/2023 10:47:29] "OPTIONS / HTTP/1.0" 200 -
+2023-12-22 10:47:34,420 - ERROR - 139.162.142.167 - - [22/Dec/2023 10:47:34] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+2023-12-22 10:47:34,421 - INFO - 139.162.142.167 - - [22/Dec/2023 10:47:34] "[35m[1m\x80\x00\x00(rþ\x1d\x13\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86 \x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 10:47:34,428 - ERROR - 139.162.142.167 - - [22/Dec/2023 10:47:34] code 400, message Bad request syntax ('HELP')
+2023-12-22 10:47:34,428 - INFO - 139.162.142.167 - - [22/Dec/2023 10:47:34] "[35m[1mHELP[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 10:47:34,445 - ERROR - 139.162.142.167 - - [22/Dec/2023 10:47:34] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+2023-12-22 10:47:34,445 - INFO - 139.162.142.167 - - [22/Dec/2023 10:47:34] "[35m[1m\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 10:47:34,465 - ERROR - 139.162.142.167 - - [22/Dec/2023 10:47:34] code 400, message Bad request version ('\x00/\x00')
+2023-12-22 10:47:34,466 - INFO - 139.162.142.167 - - [22/Dec/2023 10:47:34] "[35m[1m\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 10:47:34,483 - ERROR - 139.162.142.167 - - [22/Dec/2023 10:47:34] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+2023-12-22 10:47:34,484 - INFO - 139.162.142.167 - - [22/Dec/2023 10:47:34] "[35m[1m\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 10:47:39,504 - ERROR - 139.162.142.167 - - [22/Dec/2023 10:47:39] code 400, message Bad HTTP/0.9 request type ('l\x00')
+2023-12-22 10:47:39,505 - INFO - 139.162.142.167 - - [22/Dec/2023 10:47:39] "[35m[1ml\x00\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 10:47:39,512 - ERROR - 139.162.142.167 - - [22/Dec/2023 10:47:39] code 400, message Bad request version ('SIP/2.0')
+2023-12-22 10:47:39,512 - INFO - 139.162.142.167 - - [22/Dec/2023 10:47:39] "[35m[1mOPTIONS sip:nm SIP/2.0[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 10:47:44,691 - ERROR - 139.162.142.167 - - [22/Dec/2023 10:47:44] code 400, message Bad request version ('\x00/\x00')
+2023-12-22 10:47:44,691 - INFO - 139.162.142.167 - - [22/Dec/2023 10:47:44] "[35m[1m\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 10:47:50,519 - INFO - Homepage accessed
+2023-12-22 10:47:50,519 - INFO - 139.162.142.167 - - [22/Dec/2023 10:47:50] "GET / HTTP/1.1" 200 -
+2023-12-22 10:47:56,946 - ERROR - 139.162.142.167 - - [22/Dec/2023 10:47:56] code 400, message Bad request syntax ('\x0e\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbbb0100000001')
+2023-12-22 10:47:56,946 - INFO - 139.162.142.167 - - [22/Dec/2023 10:47:56] "[35m[1m\x0e\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbbb0100000001[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 14:10:07,172 - INFO - Homepage accessed
+2023-12-22 14:10:07,173 - INFO - 106.75.90.129 - - [22/Dec/2023 14:10:07] "GET / HTTP/1.1" 200 -
+2023-12-22 14:12:28,064 - INFO - Homepage accessed
+2023-12-22 14:12:28,065 - INFO - 106.75.166.156 - - [22/Dec/2023 14:12:28] "GET / HTTP/1.1" 200 -
+2023-12-22 14:12:28,577 - INFO - 106.75.166.156 - - [22/Dec/2023 14:12:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-22 15:22:20,017 - ERROR - 185.79.102.97 - - [22/Dec/2023 15:22:20] code 400, message Bad request version ('Ñ\x80íZ!Ù\x95P8Ó]üFÁµg|F\x80y')
+2023-12-22 15:22:20,017 - INFO - 185.79.102.97 - - [22/Dec/2023 15:22:20] "[35m[1m\x16\x03\x01\x02R\x01\x00\x02N\x03\x03%\x13GûsT\x840PjÈ¯mmÇ¸¼»è\x9b\x8a\x9fJ{ô²\x15Ê:ù\x91Ä \x7f\x92ÙÔG\x9b\x1fO\x9f\x09Ñ\x80íZ!Ù\x95P8Ó]üFÁµg|F\x80y[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 15:22:20,289 - INFO - Homepage accessed
+2023-12-22 15:22:20,290 - INFO - 185.79.102.97 - - [22/Dec/2023 15:22:20] "GET / HTTP/1.1" 200 -
+2023-12-22 15:22:20,364 - ERROR - 185.79.102.97 - - [22/Dec/2023 15:22:20] code 400, message Bad request version ('\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01ç\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+2023-12-22 15:22:20,365 - INFO - 185.79.102.97 - - [22/Dec/2023 15:22:20] "[35m[1m\x16\x03\x01\x02R\x01\x00\x02N\x03\x03å\x89þ¥FÍüJÛ\x05Q`ú\x1cóØQ4\x84êb\x03d\x00Î}az@p\\\x9f ?ÈÆk±~zÄ\x9f¤õUOk^6\x87»?)\x8b\x8eòòÀ=\x9e\x18XÈ$Ã\x00\x1e\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01ç\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 15:22:51,137 - INFO - Homepage accessed
+2023-12-22 15:22:51,138 - INFO - 185.79.102.97 - - [22/Dec/2023 15:22:51] "GET / HTTP/1.1" 200 -
+2023-12-22 15:22:52,555 - INFO - 185.79.102.97 - - [22/Dec/2023 15:22:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-22 16:03:49,039 - INFO - Homepage accessed
+2023-12-22 16:03:49,039 - INFO - 185.211.158.242 - - [22/Dec/2023 16:03:49] "GET / HTTP/1.1" 200 -
+2023-12-22 16:03:49,471 - INFO - 185.211.158.242 - - [22/Dec/2023 16:03:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-22 16:03:50,502 - INFO - 185.211.158.242 - - [22/Dec/2023 16:03:50] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2023-12-22 16:03:50,503 - INFO - 185.211.158.242 - - [22/Dec/2023 16:03:50] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2023-12-22 16:03:50,529 - INFO - 185.211.158.242 - - [22/Dec/2023 16:03:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-22 16:22:25,404 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.5:5000
+2023-12-22 16:22:25,404 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-22 16:22:56,254 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.3:5000
+2023-12-22 16:22:56,254 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-22 16:23:35,253 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.5:5000
+2023-12-22 16:23:35,254 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-22 16:27:32,485 - INFO - Homepage accessed
+2023-12-22 16:27:32,489 - INFO - 212.248.24.237 - - [22/Dec/2023 16:27:32] "GET / HTTP/1.1" 200 -
+2023-12-22 16:48:27,935 - INFO - Homepage accessed
+2023-12-22 16:48:27,935 - INFO - 212.248.24.228 - - [22/Dec/2023 16:48:27] "GET / HTTP/1.1" 200 -
+2023-12-22 16:48:28,575 - INFO - 212.248.24.228 - - [22/Dec/2023 16:48:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-22 16:48:31,794 - ERROR - 93.180.40.151 - - [22/Dec/2023 16:48:31] code 400, message Bad request version ('\x02h2\x08http/1.1\x00\x1b\x00\x03\x02\x00\x02ÿ\x01\x00\x01\x00\x00')
+2023-12-22 16:48:31,795 - INFO - 93.180.40.151 - - [22/Dec/2023 16:48:31] "[35m[1m\x16\x03\x01\x02\x1a\x01\x00\x02\x16\x03\x03<\x94¸\x93øsÀË\x80Öç¯Å¾\x8f{[bÝß7þQE¬Ó\x9d]i \x927 íÓá\x94Ñ\x93ÒÜh\x1f÷Ú`\x8dîÔ_×ëq-\x19×¯Êûæk\x03c\x01¯\x00 ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01­ºº\x00\x00\x00\x0b\x00\x02\x01\x00Di\x00\x05\x00\x03\x02h2\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00\x1b\x00\x03\x02\x00\x02ÿ\x01\x00\x01\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 16:48:31,967 - ERROR - 93.180.40.151 - - [22/Dec/2023 16:48:31] code 400, message Bad request version ("y`'QåË\x88Z")
+2023-12-22 16:48:31,968 - INFO - 93.180.40.151 - - [22/Dec/2023 16:48:31] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03[lq\x03\x11Êøz|\x1c\x1eöÞi÷³"¯t\x1a\x14ó4nµaÌ\x10ÊÊ\x0d\x94 Vµ.×\x85ºî¥ä~±-)ÇÆ4¿ùÇD\x96Âz§Ûz\x1b­Ò7w¯\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93jj\x00\x00\x00-\x00\x02\x01\x01Di\x00\x05\x00\x03\x02h2ÿ\x01\x00\x01\x00\x00\x12\x00\x00þ\x0d\x00Ú\x00\x00\x01\x00\x01/\x00 )7,¹T\x95½\x0cX\x88â$gIo×2ùXX&ã\x16\x02öèÅTS\x96çS\x00°È-Dë\x8a\x84ÞMØ¢ìø=¾«\x02\x9b\x98÷º¯CÊ±BÏ\x10c$¶êM¯\x18\x17|È\x89\x1ey`'QåË\x88Z[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 16:48:32,040 - ERROR - 93.180.40.151 - - [22/Dec/2023 16:48:32] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x95')
+2023-12-22 16:48:32,040 - INFO - 93.180.40.151 - - [22/Dec/2023 16:48:32] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x95[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 16:48:32,096 - ERROR - 93.180.40.151 - - [22/Dec/2023 16:48:32] code 400, message Bad request version ('($¿};ê')
+2023-12-22 16:48:32,096 - INFO - 93.180.40.151 - - [22/Dec/2023 16:48:32] "[35m[1m\x16\x03\x01\x02\x1a\x01\x00\x02\x16\x03\x03Ãà¨QNÑI"iÉÊq\x9b\x01Öö\x13!\x85V\x1e\x90\x83mëÁÀÐw95> ÁE½ôå\\¼!\x8eåCúè¡ÇçZ,<ô\x9f\x9e\x83µ1Ui\\\x82\x18^ª\x00 \x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01­ÚÚ\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1þ\x0d\x00ú\x00\x00\x01\x00\x01¨\x00 ¸\x86ê!khg\x08¹b\x00\x0cs*\x90A\x12ãÙJ3\x1c¡\x8aðR\x12\x86\x09êï\x1d\x00ÐÜ\x8bã¿\x82ËP~Æ\x9bÖ7Z\x16D\x0dÍVM#\x8eÌó\x9e¾Ê>\x823\x9d@ÿ\x9aÊ\x9fb\x83WB<\x894ë+\x1b\x83\x95\x9dõû4þ(\x7fræ\x8bK\x86\x0bk}.\x85~\x14âU\x92\x11#\x97ñ\x16\x88©\x00RX\x98\x83?<Õõ½ñ&(²\x9dü7BÐ\x80\x87«\x8bõµü ($¿};ê[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 16:48:33,936 - INFO - Homepage accessed
+2023-12-22 16:48:33,937 - INFO - 212.248.24.216 - - [22/Dec/2023 16:48:33] "GET / HTTP/1.1" 200 -
+2023-12-22 16:48:34,467 - INFO - 212.248.24.216 - - [22/Dec/2023 16:48:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-22 16:48:37,098 - ERROR - 93.180.40.151 - - [22/Dec/2023 16:48:37] code 400, message Bad request version ('\x00\x02\x01\x00ÿ\x01\x00\x01\x00\x00')
+2023-12-22 16:48:37,098 - INFO - 93.180.40.151 - - [22/Dec/2023 16:48:37] "[35m[1m\x16\x03\x01\x02:\x01\x00\x026\x03\x03×\x14\x81Ï¬\x1cA;\x13Ú¡þ+\x96O4í\x87Ë\x00y±<ÿC­\x82 \x1f\x90ÂK ÙîDä\x96\x10\x19õÊÓtÙ\x8bû½ÛHªõ\x0cAÊ³\x94\x18\x0d±\x0dNF/Î\x00 ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01Íªª\x00\x00\x003\x00+\x00)\x9a\x9a\x00\x01\x00\x00\x1d\x00 Vî\x0f\x9a\x86\x05<3Rö\x8d+Ö\x14\x8c.5\x1ba\x93É×Åî\x8fí\x92)Ö?""\x00\x0b\x00\x02\x01\x00ÿ\x01\x00\x01\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 16:48:37,289 - ERROR - 93.180.40.151 - - [22/Dec/2023 16:48:37] code 400, message Bad request version ('4o¢Ñ\x0eÃýt\x00')
+2023-12-22 16:48:37,289 - INFO - 93.180.40.151 - - [22/Dec/2023 16:48:37] "[35m[1m\x16\x03\x01\x02:\x01\x00\x026\x03\x03\x12Ôo4$ê\\Kk4hÅþ\x974õIz{´\x06WÕ)\x11Q%È\x0b\x9fã« $\x04s\x93Ù¤K·X\x8d\x9cN|\x0c\x13õ\x9b\x85gÖþa\x1agU$ÀA\x84æ$@\x00 ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01Í\x9a\x9a\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x17\x00\x00\x00#\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01Di\x00\x05\x00\x03\x02h2\x00+\x00\x07\x06ZZ\x03\x04\x03\x03\x00-\x00\x02\x01\x01\x00\x0b\x00\x02\x01\x00\x00\x1b\x00\x03\x02\x00\x02\x003\x00+\x00)::\x00\x01\x00\x00\x1d\x00 Æ/(:Ü"P/ÝA\x9d1ã~R`'D1Þ\x13 \x98\x1d4o¢Ñ\x0eÃýt\x00[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 16:48:37,373 - INFO - Homepage accessed
+2023-12-22 16:48:37,373 - INFO - 93.180.40.151 - - [22/Dec/2023 16:48:37] "GET / HTTP/1.1" 200 -
+2023-12-22 16:48:37,593 - INFO - 93.180.40.151 - - [22/Dec/2023 16:48:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-22 16:48:38,454 - ERROR - 93.180.40.151 - - [22/Dec/2023 16:48:38] code 400, message Bad request version ('ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\xad\x8a\x8a\x00\x00\x00\x17\x00\x00\x00\x12\x00\x00\x00')
+2023-12-22 16:48:38,454 - INFO - 93.180.40.151 - - [22/Dec/2023 16:48:38] "[35m[1m\x16\x03\x01\x02\x1a\x01\x00\x02\x16\x03\x03)ã0\x0b}\x18þ-J\x09\x0bø\x84\x08¼P\x8a\x025gÊ´êÒ\x05ÿawÌÂ\x93¨ ºá+\x04\x7f3Æ\x88\x1a\x07b¥?¯üx\x11ÜWó·¿^Cc(\x18P@\x8e\x89¿\x00 ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01­\x8a\x8a\x00\x00\x00\x17\x00\x00\x00\x12\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 16:48:38,783 - ERROR - 93.180.40.151 - - [22/Dec/2023 16:48:38] code 400, message Bad request version ('Õ7Ô+é\x17')
+2023-12-22 16:48:38,783 - INFO - 93.180.40.151 - - [22/Dec/2023 16:48:38] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03÷\x14]"¼'U.\x16ÿd)E+\x0bn\x9bÅ]~»\x8bùYâ\x06\x11\x0f\x82¿³¥ 8\x84pªèB\x7f\x8f:a/ÿ·Ù\x12Jd£'\x95Ë\x0bÖrÜ&h/5Yµ\x1a\x00 ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93úú\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00+\x00\x07\x06\x8a\x8a\x03\x04\x03\x03þ\x0d\x00Ú\x00\x00\x01\x00\x019\x00 \x0eÌfB¨T®Ñ£xÓ!§\x1e\x98ëzu\x8dñ\x0b\x8e\x82\x99ù£Ê\x0cØÄ½?\x00°\x88¯\x9e\x1aUË\x80 #³Aj\x1b)¶\x82Bù\x9aÜD\x9ff¾ßÉú\\\x06Ó+z_\x02ë\x9fDþ\x1aW]V\x86Ap·¨¤\x98é4\x898w¼Ü\x87ú#\x13\x17GùosÑ\x101pz¦_ÇEÕaM}6i\x02B\x10*[hL\x00«Ë0Y¯i´³Aè\x88 Õ7Ô+é\x17[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 16:48:38,945 - ERROR - 93.180.40.151 - - [22/Dec/2023 16:48:38] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+2023-12-22 16:48:38,946 - INFO - 93.180.40.151 - - [22/Dec/2023 16:48:38] "[35m[1m\x16\x03\x01\x00ó\x01\x00\x00ï\x03\x03²`y¾TN­¬^õ\x92\x81Ð:ë3\\Ó~\x17E\x07ñCì°G7Aâ%o zÄ`\x7f6ÄÙw-©\x81»² Ûð\x0f\x83\x1d_\x96Ò¥y\x09I§[ó\x9b!¶\x00 \x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00ÿ\x01\x00\x00\x86\x00\x0b\x00\x04\x03\x00\x01\x02\x00[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 16:48:38,998 - INFO - Homepage accessed
+2023-12-22 16:48:38,998 - INFO - 93.180.40.151 - - [22/Dec/2023 16:48:38] "GET / HTTP/1.1" 200 -
+2023-12-22 16:48:39,091 - ERROR - 93.180.40.151 - - [22/Dec/2023 16:48:39] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+2023-12-22 16:48:39,091 - INFO - 93.180.40.151 - - [22/Dec/2023 16:48:39] "[35m[1m\x16\x03\x01\x00ó\x01\x00\x00ï\x03\x03M\x11z\x01\x18¯\x8f¶\x18« \x8dß¡\x00g®¼çOØÕYÿ>\x9f~å¦Õ^# K\x08ìÈ.\x07îziôrç^-\x14lF#ÔøWï\x821s\x9b\x99¢ÍØ°Å\x00 \x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00ÿ\x01\x00\x00\x86\x00\x0b\x00\x04\x03\x00\x01\x02\x00[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 16:48:39,258 - ERROR - 93.180.40.151 - - [22/Dec/2023 16:48:39] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+2023-12-22 16:48:39,259 - INFO - 93.180.40.151 - - [22/Dec/2023 16:48:39] "[35m[1m\x16\x03\x01\x00ó\x01\x00\x00ï\x03\x03>ì¹9Á\x11\x1f®M©\x9aØó£\x17,\x8b°»\x81Ä·\x80;\x82\x88\x15\x13.X£^ avÿú\x93"\x18\x83,âÍ@±N.®gÖRDi<\x8dW:Ú\x03øºF\x1e\x16\x00 \x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00ÿ\x01\x00\x00\x86\x00\x0b\x00\x04\x03\x00\x01\x02\x00[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 16:48:39,393 - INFO - Homepage accessed
+2023-12-22 16:48:39,393 - INFO - 93.180.40.151 - - [22/Dec/2023 16:48:39] "GET / HTTP/1.1" 200 -
+2023-12-22 16:48:39,595 - INFO - 93.180.40.151 - - [22/Dec/2023 16:48:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-22 16:48:39,781 - INFO - 93.180.40.151 - - [22/Dec/2023 16:48:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-22 16:48:41,985 - INFO - Homepage accessed
+2023-12-22 16:48:41,986 - INFO - 93.180.40.151 - - [22/Dec/2023 16:48:41] "GET / HTTP/1.1" 200 -
+2023-12-22 16:48:42,127 - INFO - 93.180.40.151 - - [22/Dec/2023 16:48:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-22 16:48:42,744 - INFO - Homepage accessed
+2023-12-22 16:48:42,745 - INFO - 212.248.24.237 - - [22/Dec/2023 16:48:42] "GET / HTTP/1.1" 200 -
+2023-12-22 16:48:54,498 - INFO - Homepage accessed
+2023-12-22 16:48:54,499 - INFO - 212.248.24.216 - - [22/Dec/2023 16:48:54] "GET / HTTP/1.1" 200 -
+2023-12-22 16:48:59,359 - ERROR - 93.180.40.151 - - [22/Dec/2023 16:48:59] code 400, message Bad request version ('@P\x11ø·\x05nJ)\x05\x05ÁË\xad?>\x964£4\x10oþïM:\x9dT¾y]ì(\x12`\x17\x84æCe=âÙó@!\x03öb®³H!\x01s1ËÊªÆ¾\x88e\x8d¼ÈÎ\x02D\x16÷ö\x8c\x06u^7')
+2023-12-22 16:48:59,359 - INFO - 93.180.40.151 - - [22/Dec/2023 16:48:59] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\\Z\x9c\x94ðéö\x0czóvbªe=nÆü«5n\x92¾\x8aA\x19®³P\x7fó× j1ög62\x92´&ð\x9fÉþ¢ÈÊ?à®yìªÑ4\x95\x83\x17\\U\x8e³\x97\x00 **\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x9a\x9a\x00\x00þ\x0d\x00Ú\x00\x00\x01\x00\x01v\x00 §\x9d¦\x87;Ts\x96ÔjmÆu­rJ\x83\x98«\x00qzçÅ¯\x12Ã?ØÚ]2\x00°z#%dÙ\x89F\x80\x0bh\x1b[{>½¡\x8ddhÆ¹ \x85\x8eJÛ/VÏc7ôBÑgÛ\x94¹]ùÊÍ\x03\x81·\x9d9~j{Ð(\x97\x96Q\x1f@P\x11ø·\x05nJ)\x05\x05ÁË­?>\x964£4\x10oþïM:\x9dT¾y]ì(\x12`\x17\x84æCe=âÙó@!\x03öb®³H!\x01s1ËÊªÆ¾\x88e\x8d¼ÈÎ\x02D\x16÷ö\x8c\x06u^7[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 16:48:59,709 - ERROR - 93.180.40.151 - - [22/Dec/2023 16:48:59] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x1a\x01\x00\x02\x16\x03\x03Åð')
+2023-12-22 16:48:59,710 - INFO - 93.180.40.151 - - [22/Dec/2023 16:48:59] "[35m[1m\x16\x03\x01\x02\x1a\x01\x00\x02\x16\x03\x03Åð\x85\x10\x05}yFÍ,á[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 16:49:00,026 - ERROR - 93.180.40.151 - - [22/Dec/2023 16:49:00] code 400, message Bad request version ('\x02h2\x08http/1.1\x00-\x00\x02\x01\x01\x00')
+2023-12-22 16:49:00,026 - INFO - 93.180.40.151 - - [22/Dec/2023 16:49:00] "[35m[1m\x16\x03\x01\x02\x1a\x01\x00\x02\x16\x03\x03½%be\x81[v;\x8f¸nð\x1fæÕÜ\x11É\x86¯×è¦ê\x17)´?\x07x{6 `!Z\x84ë%·êø£Õ\x18ÀrYä\x8b\x8c;èÁ¥\x8bÎ&ó\x06%á·eQ\x00 jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01­êê\x00\x00\x00+\x00\x07\x06ºº\x03\x04\x03\x03\x00\x12\x00\x00\x00\x17\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00-\x00\x02\x01\x01\x00[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 16:49:00,275 - ERROR - 93.180.40.151 - - [22/Dec/2023 16:49:00] code 400, message Bad request version ('¹ÔqR\x88÷Éñª¹&3')
+2023-12-22 16:49:00,275 - INFO - 93.180.40.151 - - [22/Dec/2023 16:49:00] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Â\x16Á·ÓO\x94ý£.\x93sH¾ÏÖÊÓL\x89\x9cÓv\x17ßþ\x9c\x15\x8bö\x0cS Íë@\x87ãÄ@\x08o\x95§¶\x10Àw¬o¹\x08\x0ebÀ½Ìf»½U³ (¿\x00 úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÚÚ\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01þ\x0d\x00Ú\x00\x00\x01\x00\x01\x1a\x00 ·'÷¬\x952ù\\¯Z\x08\x05¼LcÝ\x8c~dN;f»\x18N\x8b\x09\x05îVY\x11\x00°à\x0eëipNÏÔRç\x16e\x99C\x96x9r9`\x9a\x8cðÌ^\x9e\x01ð\x9a\x1c=¢¿lR6GN\x9däÆ?ÅÅ3¢Õ[\x12\x1cõû\x00\x17µ\x92Ætµ\x1aÿQ\x80K^\x05Zp£\x09\x18SV\x0b\x1dzÖ¼f¥\x13¦\x8a\x84jH\x907kµ»).À´\x12y\x17\x07¡ndýTé\\é^÷ú$§\x8f\x15F#Æ$Þq\x7f\x97ÚkD¼´V\x15\x15\x8c7\x89Ø»ò\x9c\x19í#èD3\x86\x89j®\x0c»\x86#±.ªT[¢\x0b¹ÔqR\x88÷Éñª¹&3[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 16:49:00,316 - INFO - Homepage accessed
+2023-12-22 16:49:00,317 - INFO - 93.180.40.151 - - [22/Dec/2023 16:49:00] "GET / HTTP/1.1" 200 -
+2023-12-22 16:49:01,163 - INFO - 93.180.40.151 - - [22/Dec/2023 16:49:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-22 16:49:26,589 - INFO - Homepage accessed
+2023-12-22 16:49:26,590 - INFO - 212.248.24.216 - - [22/Dec/2023 16:49:26] "GET / HTTP/1.1" 200 -
+2023-12-22 16:49:27,307 - INFO - Homepage accessed
+2023-12-22 16:49:27,307 - INFO - 93.180.40.151 - - [22/Dec/2023 16:49:27] "GET / HTTP/1.1" 200 -
+2023-12-22 16:50:01,918 - INFO - Homepage accessed
+2023-12-22 16:50:01,918 - INFO - 212.248.24.216 - - [22/Dec/2023 16:50:01] "GET / HTTP/1.1" 200 -
+2023-12-22 16:50:15,351 - INFO - Homepage accessed
+2023-12-22 16:50:15,352 - INFO - 93.180.40.151 - - [22/Dec/2023 16:50:15] "GET / HTTP/1.1" 200 -
+2023-12-22 16:50:42,626 - INFO - Homepage accessed
+2023-12-22 16:50:42,626 - INFO - 212.248.24.216 - - [22/Dec/2023 16:50:42] "GET / HTTP/1.1" 200 -
+2023-12-22 16:51:09,734 - INFO - Homepage accessed
+2023-12-22 16:51:09,735 - INFO - 93.180.40.151 - - [22/Dec/2023 16:51:09] "GET / HTTP/1.1" 200 -
+2023-12-22 16:51:09,753 - ERROR - 93.180.40.151 - - [22/Dec/2023 16:51:09] code 400, message Bad request version ('\x931+Ú´Á[V¨q$S-[æ\x02Q\x01\x03þn¿Ï¾j\x86\x16\x95D.eÚê}RL¡ï,cá%\x03q\x89Ò\x9f\x10ûU\xad±+»\x9f.5Ç\x8eSÝ3¹\x00\x1b\x00\x03\x02\x00\x02\x00\x17\x00\x00\x003\x00+\x00)')
+2023-12-22 16:51:09,753 - INFO - 93.180.40.151 - - [22/Dec/2023 16:51:09] "[35m[1m\x16\x03\x01\x02\x1a\x01\x00\x02\x16\x03\x03\x0cñ;zi\x9a\x97(Þ\x99\x98ùh}ÔWê\x97¹5p\x00ò\x8c|Îñ\x95\x14ÏîÎ \x00õ<¡VCÄïö&\x13þâ\x09wçß-Üs\x01ÌYóÉ\x87À\x99\x97¯\x15W\x00 ::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01­\x1a\x1a\x00\x00þ\x0d\x00ú\x00\x00\x01\x00\x01\x91\x00 ñê\x08bÌË \x97ä\x9a\x87\x81¢\x15<Êr'fF×Ç´°K×ÿ¹-Ï\x8e\x19\x00ÐÚQüY£][ºU\x04(P\x9fn\x9a¨áË\x8aàæ \x03\x80\x1d\x89ò7b-DeJªb\x86[¤ÇóÊ?C\x8d\x06IL\x19T»Ri>\x8c\x83 U\x97S¸U\x1aºIÀ\x7fCØ&½l$\x06Ç$¦çú7èÁ\x0d\x1d\x9e$TÖ\x9dðpù»öáôj\x93'¨\x92\x03<GÓÍÄeñ\x8f§-ÄÓy\x0cx _V+Ì\\WØo/\x90)\x01\x87[HJ Ud\x14 ¸ð\x09@ì&\x1d\x931+Ú´Á[V¨q$S-[æ\x02Q\x01\x03þn¿Ï¾j\x86\x16\x95D.eÚê}RL¡ï,cá%\x03q\x89Ò\x9f\x10ûU­±+»\x9f.5Ç\x8eSÝ3¹\x00\x1b\x00\x03\x02\x00\x02\x00\x17\x00\x00\x003\x00+\x00)[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 16:51:09,844 - ERROR - 93.180.40.151 - - [22/Dec/2023 16:51:09] code 400, message Bad request version ('\x91F\x00ÐuU\x9a\x94²*\x0f\x11\x1b\x8ch?¸4\x11ÈÑ')
+2023-12-22 16:51:09,844 - INFO - 93.180.40.151 - - [22/Dec/2023 16:51:09] "[35m[1m\x16\x03\x01\x02\x1a\x01\x00\x02\x16\x03\x03Q\x047æÈ,$Üç\x9dU\x15bzÇD8±x\x05(\x08;0\x90Ê\x02B\\\x96½n 8Bz\x18¦±\x1e\x10\x0c\x8a\x95\x00Ü\x05\x03D:\x8bë~j¢ \x8e\x89ªy\x01Á\x1c\x9b\x98\x00 zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01­ÊÊ\x00\x00\x00\x12\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1þ\x0d\x00ú\x00\x00\x01\x00\x01\x9d\x00 \x95,\x83<¬]Ï\x1f]\x11!\x16¨\x1f¼ÔB­éè)1£i4\x0da{\x18 \x91F\x00ÐuU\x9a\x94²*\x0f\x11\x1b\x8ch?¸4\x11ÈÑ[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 16:51:54,376 - ERROR - 93.180.40.151 - - [22/Dec/2023 16:51:54] code 400, message Bad request version ('f\x8fmPeô.\x11°')
+2023-12-22 16:51:54,377 - INFO - 93.180.40.151 - - [22/Dec/2023 16:51:54] "[35m[1m\x16\x03\x01\x02:\x01\x00\x026\x03\x03Y¨Í\x1f÷¬\x0cf\x8fmPeô.\x11°[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 16:51:54,466 - ERROR - 93.180.40.151 - - [22/Dec/2023 16:51:54] code 400, message Bad request version ('çÄn')
+2023-12-22 16:51:54,466 - INFO - 93.180.40.151 - - [22/Dec/2023 16:51:54] "[35m[1m\x16\x03\x01\x02\x1a\x01\x00\x02\x16\x03\x03\x94àJ¬Tð@ A°{Cf\x10}åÇ4ApXÏ\x16ç¡\\mÞêÃ.\x82 «Å"¨)2§Ý\x87\x0d¥ÆqfHQréÎX \x8b®«Ó\x82d çÄn[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 16:51:55,966 - INFO - Homepage accessed
+2023-12-22 16:51:55,966 - INFO - 93.180.40.151 - - [22/Dec/2023 16:51:55] "GET / HTTP/1.1" 200 -
+2023-12-22 16:51:56,172 - INFO - 93.180.40.151 - - [22/Dec/2023 16:51:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-22 16:52:20,337 - INFO - Homepage accessed
+2023-12-22 16:52:20,338 - INFO - 212.248.24.228 - - [22/Dec/2023 16:52:20] "GET / HTTP/1.1" 200 -
+2023-12-22 16:54:42,041 - INFO - Homepage accessed
+2023-12-22 16:54:42,042 - INFO - 212.248.24.228 - - [22/Dec/2023 16:54:42] "GET / HTTP/1.1" 200 -
+2023-12-22 16:54:51,681 - INFO - Homepage accessed
+2023-12-22 16:54:51,682 - INFO - 93.180.40.151 - - [22/Dec/2023 16:54:51] "GET / HTTP/1.1" 200 -
+2023-12-22 16:55:23,425 - INFO - 93.180.40.151 - - [22/Dec/2023 16:55:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-22 16:55:28,675 - INFO - Homepage accessed
+2023-12-22 16:55:28,675 - INFO - 93.180.40.151 - - [22/Dec/2023 16:55:28] "GET / HTTP/1.1" 200 -
+2023-12-22 16:55:28,880 - INFO - 93.180.40.151 - - [22/Dec/2023 16:55:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-22 16:56:22,359 - INFO - Homepage accessed
+2023-12-22 16:56:22,359 - INFO - 212.248.24.228 - - [22/Dec/2023 16:56:22] "GET / HTTP/1.1" 200 -
+2023-12-22 16:56:22,493 - INFO - 212.248.24.228 - - [22/Dec/2023 16:56:22] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2023-12-22 16:56:22,623 - INFO - 212.248.24.228 - - [22/Dec/2023 16:56:22] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2023-12-22 16:56:22,752 - INFO - 212.248.24.228 - - [22/Dec/2023 16:56:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-22 16:56:22,883 - INFO - 212.248.24.228 - - [22/Dec/2023 16:56:22] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2023-12-22 16:56:23,012 - INFO - 212.248.24.228 - - [22/Dec/2023 16:56:23] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2023-12-22 16:56:23,144 - INFO - 212.248.24.228 - - [22/Dec/2023 16:56:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-22 16:56:23,288 - INFO - Homepage accessed
+2023-12-22 16:56:23,288 - INFO - 212.248.24.228 - - [22/Dec/2023 16:56:23] "GET / HTTP/1.1" 200 -
+2023-12-22 16:56:23,434 - INFO - 212.248.24.228 - - [22/Dec/2023 16:56:23] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2023-12-22 16:56:23,576 - INFO - 212.248.24.228 - - [22/Dec/2023 16:56:23] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2023-12-22 16:56:23,714 - INFO - 212.248.24.228 - - [22/Dec/2023 16:56:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-22 16:56:23,846 - INFO - 212.248.24.228 - - [22/Dec/2023 16:56:23] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2023-12-22 16:56:23,976 - INFO - 212.248.24.228 - - [22/Dec/2023 16:56:23] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2023-12-22 16:56:24,114 - INFO - 212.248.24.228 - - [22/Dec/2023 16:56:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-22 17:02:08,648 - INFO - Homepage accessed
+2023-12-22 17:02:08,649 - INFO - 212.248.24.216 - - [22/Dec/2023 17:02:08] "GET / HTTP/1.1" 200 -
+2023-12-22 17:04:26,755 - INFO - Homepage accessed
+2023-12-22 17:04:26,755 - INFO - 93.180.40.151 - - [22/Dec/2023 17:04:26] "GET / HTTP/1.1" 200 -
+2023-12-22 17:05:15,905 - INFO - Homepage accessed
+2023-12-22 17:05:15,905 - INFO - 93.180.40.151 - - [22/Dec/2023 17:05:15] "GET / HTTP/1.1" 200 -
+2023-12-22 17:10:54,045 - INFO - Homepage accessed
+2023-12-22 17:10:54,045 - INFO - 93.180.40.151 - - [22/Dec/2023 17:10:54] "GET / HTTP/1.1" 200 -
+2023-12-22 17:14:14,846 - INFO - Homepage accessed
+2023-12-22 17:14:14,846 - INFO - 93.180.40.151 - - [22/Dec/2023 17:14:14] "GET / HTTP/1.1" 200 -
+2023-12-22 17:14:15,380 - INFO - 93.180.40.151 - - [22/Dec/2023 17:14:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-22 17:14:41,172 - INFO - Homepage accessed
+2023-12-22 17:14:41,172 - INFO - 93.180.40.151 - - [22/Dec/2023 17:14:41] "GET / HTTP/1.1" 200 -
+2023-12-22 17:16:21,191 - INFO - Homepage accessed
+2023-12-22 17:16:21,191 - INFO - 212.248.24.216 - - [22/Dec/2023 17:16:21] "GET / HTTP/1.1" 200 -
+2023-12-22 17:23:14,453 - ERROR - 212.248.24.228 - - [22/Dec/2023 17:23:14] code 400, message Bad request version ('JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01Íjj\x00\x00Di\x00\x05\x00\x03\x02h2\x00')
+2023-12-22 17:23:14,454 - INFO - 212.248.24.228 - - [22/Dec/2023 17:23:14] "[35m[1m\x16\x03\x01\x02:\x01\x00\x026\x03\x03¬*j0u¿Èª°ü\x895îfÞ\x09\x9ba\x84cüï {\x88\x0d MnC¨Ø \x81&\x8c\x9a\x86\x89\x1fôX Õ\x09¼à.\x99ágÛ¹\x87d;Ä©\x92æT¢\x97àû\x00 JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01Íjj\x00\x00Di\x00\x05\x00\x03\x02h2\x00[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 17:23:14,577 - ERROR - 212.248.24.228 - - [22/Dec/2023 17:23:14] code 400, message Bad request version ('\x81p\x0fÆ¯ï¾T')
+2023-12-22 17:23:14,577 - INFO - 212.248.24.228 - - [22/Dec/2023 17:23:14] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03X+\x0b/\x13\x97CJô~\x13%j\x90\x09À\x8bñ°¥Í\x92¥Cvæ2¿\x08'³¸ wåãà\x9b¶Ú×P+B\x85¬\x01ñ\x9b§^y%\x1d_\x8e\x8a\x93\x9c}\x90úù\x8ad\x00 \x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÚÚ\x00\x00þ\x0d\x00º\x00\x00\x01\x00\x01\x05\x00 eÀ-»¸w#f C¿\x8f>®L\x01\x16R\x95êýÄõâþä5îa'ób\x00\x90®@\x00\x11Ó\x88ÏU°\x8d\x88A¡\x01D\x92\x18ô\x9bk\x92Ë7¹c\x97[yOZ\x94\\ÎÝ\x07\x87Ýÿp©uy¯z\x86O\x11\\hãznòVý\x7f«\x86Ö>é\x1f\x81p\x0fÆ¯ï¾T[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 17:23:14,640 - INFO - Homepage accessed
+2023-12-22 17:23:14,641 - INFO - 212.248.24.228 - - [22/Dec/2023 17:23:14] "GET / HTTP/1.1" 200 -
+2023-12-22 17:23:16,024 - INFO - 212.248.24.228 - - [22/Dec/2023 17:23:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-22 17:23:20,155 - ERROR - 212.248.24.228 - - [22/Dec/2023 17:23:20] code 400, message Bad request version ('ÿßµlê')
+2023-12-22 17:23:20,155 - INFO - 212.248.24.228 - - [22/Dec/2023 17:23:20] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x8d]E=\x00\\B-Î°î7¬\x06Ð\x99l`Ñ´Ø8J!eâÜ\x1aÈÅþ\x18 T o\x1eÿßµlê[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 17:23:20,279 - ERROR - 212.248.24.228 - - [22/Dec/2023 17:23:20] code 400, message Bad request version ('ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\xad')
+2023-12-22 17:23:20,279 - INFO - 212.248.24.228 - - [22/Dec/2023 17:23:20] "[35m[1m\x16\x03\x01\x02\x1a\x01\x00\x02\x16\x03\x03\x19\x13\x0fR/Ó\x8d\x8d¦\x9dÇ2lI^\x81ÝÈÓ9B\x15Üî£rC/Z\x02\x04v ôë²,\x8djÿû\x01^bfø^Ê\x80Óyrå\x94]³Q®\x1c\x06\x13h\x8d©L\x00 ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01­[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 18:53:46,088 - INFO - Homepage accessed
+2023-12-22 18:53:46,089 - INFO - 185.220.250.40 - - [22/Dec/2023 18:53:46] "GET / HTTP/1.1" 200 -
+2023-12-22 18:53:46,294 - INFO - 185.220.250.40 - - [22/Dec/2023 18:53:46] "[33mGET /apple-touch-icon-120x120-precomposed.png HTTP/1.1[0m" 404 -
+2023-12-22 18:53:46,503 - INFO - 185.220.250.40 - - [22/Dec/2023 18:53:46] "[33mGET /apple-touch-icon-120x120.png HTTP/1.1[0m" 404 -
+2023-12-22 18:53:46,704 - INFO - 185.220.250.40 - - [22/Dec/2023 18:53:46] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2023-12-22 18:53:46,885 - INFO - 185.220.250.40 - - [22/Dec/2023 18:53:46] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2023-12-22 18:53:47,100 - INFO - 185.220.250.40 - - [22/Dec/2023 18:53:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-22 18:53:47,287 - INFO - 185.220.250.40 - - [22/Dec/2023 18:53:47] "[33mGET /apple-touch-icon-120x120-precomposed.png HTTP/1.1[0m" 404 -
+2023-12-22 18:53:47,507 - INFO - 185.220.250.40 - - [22/Dec/2023 18:53:47] "[33mGET /apple-touch-icon-120x120.png HTTP/1.1[0m" 404 -
+2023-12-22 18:53:47,706 - INFO - 185.220.250.40 - - [22/Dec/2023 18:53:47] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2023-12-22 18:53:47,889 - INFO - 185.220.250.40 - - [22/Dec/2023 18:53:47] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2023-12-22 18:53:48,088 - INFO - 185.220.250.40 - - [22/Dec/2023 18:53:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-22 19:38:22,893 - ERROR - 170.106.174.246 - - [22/Dec/2023 19:38:22] code 400, message Bad request version ('À\x13À')
+2023-12-22 19:38:22,894 - INFO - 170.106.174.246 - - [22/Dec/2023 19:38:22] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03I\x06²ù¼\x99iÀYûøºe-\x83Ud]\x0e\x8d·b8´gÆÝ9dZ8f gÁ\x81i³öòË°©\x19NÖ½\x95g|püé<Z¡\x90T·é¥8'O;\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 19:38:33,210 - INFO - Homepage accessed
+2023-12-22 19:38:33,210 - INFO - 170.106.174.246 - - [22/Dec/2023 19:38:33] "GET / HTTP/1.1" 200 -
+2023-12-22 19:40:57,916 - INFO - Homepage accessed
+2023-12-22 19:40:57,917 - INFO - 36.99.136.136 - - [22/Dec/2023 19:40:57] "GET / HTTP/1.1" 200 -
+2023-12-22 19:41:08,503 - INFO - Homepage accessed
+2023-12-22 19:41:08,504 - INFO - 74.80.182.88 - - [22/Dec/2023 19:41:08] "GET / HTTP/1.1" 200 -
+2023-12-22 19:41:09,603 - INFO - 74.80.182.88 - - [22/Dec/2023 19:41:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-22 19:41:23,275 - INFO - Homepage accessed
+2023-12-22 19:41:23,276 - INFO - 36.99.136.136 - - [22/Dec/2023 19:41:23] "GET / HTTP/1.1" 200 -
+2023-12-22 19:41:33,080 - INFO - Homepage accessed
+2023-12-22 19:41:33,081 - INFO - 74.80.182.88 - - [22/Dec/2023 19:41:33] "GET / HTTP/1.1" 200 -
+2023-12-22 19:41:33,644 - INFO - 74.80.182.88 - - [22/Dec/2023 19:41:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-22 19:42:40,529 - INFO - Homepage accessed
+2023-12-22 19:42:40,529 - INFO - 185.166.84.142 - - [22/Dec/2023 19:42:40] "GET / HTTP/1.1" 200 -
+2023-12-22 19:42:41,602 - INFO - 185.166.84.142 - - [22/Dec/2023 19:42:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-22 20:56:51,848 - INFO - Homepage accessed
+2023-12-22 20:56:51,849 - INFO - 162.210.194.38 - - [22/Dec/2023 20:56:51] "GET / HTTP/1.1" 200 -
+2023-12-22 20:56:52,832 - INFO - 162.210.194.38 - - [22/Dec/2023 20:56:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-22 21:19:43,322 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.4:5000
+2023-12-22 21:19:43,322 - INFO - [33mPress CTRL+C to quit[0m
+2023-12-22 22:26:55,219 - INFO - Homepage accessed
+2023-12-22 22:26:55,222 - INFO - 198.235.24.242 - - [22/Dec/2023 22:26:55] "GET / HTTP/1.1" 200 -
+2023-12-22 23:33:54,992 - ERROR - 45.79.172.21 - - [22/Dec/2023 23:33:54] code 400, message Bad request version ('À\x14À')
+2023-12-22 23:33:54,992 - INFO - 45.79.172.21 - - [22/Dec/2023 23:33:54] "[35m[1m\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03ß¾zÔ¢þ\x10aÞÚð5\x1ePA\x89\x9e­³\x94ñO\x10/Ñ\x01\x8dêøqR4\x00\x00 À/À0À+À,Ì¨Ì©À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+2023-12-22 23:39:00,921 - INFO - Homepage accessed
+2023-12-22 23:39:00,922 - INFO - 205.210.31.238 - - [22/Dec/2023 23:39:00] "GET / HTTP/1.0" 200 -
+2023-12-27 22:13:58,046 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.22.0.5:5000
+2023-12-27 22:13:58,046 - INFO - [33mPress CTRL+C to quit[0m
